@@ -12,6 +12,9 @@ public class DirectMailCSVConverter {
     {
         EventQueue.invokeLater( () -> {
             MainFrame frame = new MainFrame();
+            frame.setTitle("DirectMail CSV to Excel Tool");
+            frame.setLocationRelativeTo(null);
+            frame.setResizable(false);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
 
